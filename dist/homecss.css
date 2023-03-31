@@ -1,0 +1,65 @@
+button{
+    padding: 4px 13px;
+    background-color: cornflowerblue;
+}
+
+/* #b1{background-color: aqua;
+padding: 4px 13px;} */
+
+/* #b1{
+    height: fit-content;
+    font-size: small;
+   } */
+form {
+    width: 46.6vh;
+}
+
+label{
+    font-family: var(--font-family-dm_sans);
+}
+
+output {
+    width: 100%;
+    min-height: 150px;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 15px;
+    position: relative;
+    border-radius: 5px;
+    }
+    
+    output .image{
+    height: 150px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+    position: relative;
+    }
+    
+    output .image img{
+    height: 100%;
+    width: 100%;
+    }
+    
+    output .image span {
+    position: absolute;
+    top: -4px;
+    right: 4px;
+    cursor: pointer;
+    font-size: 22px;
+    color: white;
+    }
+    
+    output .image span:hover {
+    opacity: 0.8;
+    }
+    
+    output .span--hidden{
+    visibility: hidden;
+    }
+
+    output .p{
+        visibility: visible;
+    }
